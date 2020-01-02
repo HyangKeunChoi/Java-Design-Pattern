@@ -7,5 +7,7 @@ public class Ax implements Weapon{
 		System.out.println("µµ³¢ °ø°Ý ");
 		
 	}
+	
+	// test
 
 }
