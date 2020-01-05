@@ -1,0 +1,40 @@
+package designpattern.chapter5.Singleton;
+
+public class SystemSpeaker {
+	static private SystemSpeaker instance;
+	private int volume; // 볼륨값
+	
+	
+	private SystemSpeaker() {
+		volume = 5; // 기본값 5로 설정
+	}
+	
+	
+	
+	public static SystemSpeaker getInstance() {
+		if(instance == null) {
+			
+			// 시스템 스피커
+			instance = new SystemSpeaker();
+			System.out.println("새로 생성"); 
+		} else {
+			System.out.println("이미 생성");
+		}
+		
+		return instance;
+	}
+
+
+
+	public int getVolume() {
+		return volume;
+	}
+
+
+
+	public void setVolume(int volume) {
+		this.volume = volume;
+	}
+	
+	
+}
