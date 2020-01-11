@@ -2,6 +2,11 @@ package chapter1;
 
 public class factorial {
 	
+	public static void main(String[] args) {
+		System.out.println("Å×½ºÆ®");
+	}
+	
+	
 	public static int factorial(int n) {
 		if(n==0 )
 			return 1;
@@ -17,6 +22,7 @@ public class factorial {
 		else
 			return fibonacci(n-1) + fibonacci(n-2);
 	}
+	
 	
 	
 	
