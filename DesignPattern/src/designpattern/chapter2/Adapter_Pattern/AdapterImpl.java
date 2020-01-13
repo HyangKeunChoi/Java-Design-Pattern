@@ -7,11 +7,11 @@ public class AdapterImpl implements Adapter{
 	@Override
 	public Float twiceOf(Float f) {
 	
-		
+				
 		// return (float) Math.twoTime(f.doubleValue());
 		
 		// 추가 요구 사항
-		return (float) Math.doubled(f.doubleValue()).floatValue();
+		 return (float) Math.doubled(f.doubleValue()).floatValue();
 	}
 
 	@Override
