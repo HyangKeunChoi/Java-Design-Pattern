@@ -1,6 +1,6 @@
-package designpattern.chapter15.Observer;
+package designpattern.chapter15.Observer.part1;
 
-import designpattern.chapter15.Observer.Button.OnClickListener;
+import designpattern.chapter15.Observer.part1.Button.OnClickListener;
 
 public class Application {
 	

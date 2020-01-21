@@ -1,4 +1,4 @@
-package designpattern.chapter15.Observer;
+package designpattern.chapter15.Observer.part1;
 
 public class Button {
 	
