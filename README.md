@@ -4,7 +4,7 @@
 ##### 아래는 본 저장소에서 소개된 자바 디자인패턴입니다
 
 + [스트레티지 패턴](https://geunyang93.tistory.com/7)
-+ 어댑터 패턴
++ [어댑터 패턴](https://geunyang93.tistory.com/8?category=782696)
 + 템플릿 메소드 패턴
 + 팩토리 메소드 패턴
 + 싱글톤 패턴
