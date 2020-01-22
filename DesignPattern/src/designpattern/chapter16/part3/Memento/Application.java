@@ -13,14 +13,17 @@ public class Application {
 
 	public static void main(String[] args) {
 		
-		Stack<Memento> mementos = new Stack<>();
+		Stack<Memento> mementos = new Stack<>(); // caretaker
 		
 		Originator originator = new Originator();
 		
 		originator.setState("state 1");
 		mementos.push(originator.createMemento());
-//		Memento memento = new Memento();//X
-//		memento.getState();//X
+		
+		// 메멘토에서 protected 사용하는 이유 - 외부에서 건들지 못하도록하기 위해
+//		Memento memento = new Memento();	// 생성X
+//		memento.getState();		//X
+		
 		originator.setState("state 2");
 		mementos.push(originator.createMemento());
 		originator.setState("state 3");

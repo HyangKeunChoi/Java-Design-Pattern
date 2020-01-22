@@ -2,9 +2,9 @@ package designpattern.chapter16.part3.Memento.abc;
 
 public class Originator {
 	
-	String state;
+	String state; // 상태
 	
-	public Memento createMemento() {
+	public Memento createMemento() { // 메멘토생성
 		return new Memento(state);
 	}
 	
