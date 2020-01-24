@@ -5,9 +5,9 @@
 
 + [스트레티지 패턴](https://geunyang93.tistory.com/7)
 + [어댑터 패턴](https://geunyang93.tistory.com/8?category=782696)
-+ 템플릿 메소드 패턴
-+ 팩토리 메소드 패턴
-+ 싱글톤 패턴
++ [템플릿 메소드 패턴](https://geunyang93.tistory.com/9)
++ [팩토리 메소드 패턴](https://geunyang93.tistory.com/10)
++ [싱글톤 패턴](https://geunyang93.tistory.com/11)
 + 프로토 타입 패턴
 + 빌더 패턴
 + 추상 팩토리 패턴
